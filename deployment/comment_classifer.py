@@ -1,5 +1,5 @@
 from keras.models import load_model
-from tf_keras.preprocessing.sequence import pad_sequences
+from keras_preprocessing.sequence import pad_sequences
 import pickle
 try:
     model_loaded = load_model('LSTM_model.h5')
